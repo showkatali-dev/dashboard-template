@@ -1,0 +1,100 @@
+{
+  "scorecards": [
+    {
+      "title": "Total Sales",
+      "value": "$58,203",
+      "trend": "up",
+      "trendPercentage": "8%"
+    },
+    {
+      "title": "New Customers",
+      "value": "526",
+      "trend": "down",
+      "trendPercentage": "15%"
+    }
+  ],
+  "graph": {
+    "title": "Revenue by Category",
+    "data": [
+      {
+        "category": "Electronics",
+        "revenue": 12500
+      },
+      {
+        "category": "Clothing",
+        "revenue": 6800
+      },
+      {
+        "category": "Home Decor",
+        "revenue": 7200
+      },
+      {
+        "category": "Books",
+        "revenue": 5400
+      },
+      {
+        "category": "Beauty",
+        "revenue": 6100
+      }
+    ]
+  },
+  "table": {
+    "title": "Sales by Product",
+    "filters": [
+      {
+        "name": "dateRange",
+        "label": "Date Range",
+        "options": ["Last 7 Days", "Last 30 Days", "Last 90 Days"]
+      },
+      {
+        "name": "productType",
+        "label": "Product Type",
+        "options": ["Electronics", "Clothing", "Home Decor", "Books", "Beauty"]
+      }
+    ],
+    "data": [
+      {
+        "date": "2023-06-01",
+        "product": "iPhone 12",
+        "productType": "Electronics",
+        "quantity": 120,
+        "revenue": 15000
+      },
+      {
+        "date": "2023-05-22",
+        "product": "T-Shirt",
+        "productType": "Clothing",
+        "quantity": 200,
+        "revenue": 2500
+      },
+      {
+        "date": "2023-05-26",
+        "product": "Candle Holder",
+        "productType": "Home Decor",
+        "quantity": 80,
+        "revenue": 900
+      },
+      {
+        "date": "2023-06-02",
+        "product": "Book Set",
+        "productType": "Books",
+        "quantity": 50,
+        "revenue": 1800
+      },
+      {
+        "date": "2023-05-25",
+        "product": "Lipstick",
+        "productType": "Beauty",
+        "quantity": 30,
+        "revenue": 750
+      },
+      {
+        "date": "2023-05-16",
+        "product": "AirPods Pro",
+        "productType": "Electronics",
+        "quantity": 90,
+        "revenue": 12000
+      }
+    ]
+  }
+}

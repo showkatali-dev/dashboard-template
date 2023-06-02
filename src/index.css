@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("https://res.cloudinary.com/dsko6s0ll/image/upload/v1683133707/chef%27s%20table/bg_spq3ff.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @apply font-open-sans min-h-screen;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-poppins;
+}
+
+.nav a {
+  @apply btn btn-ghost text-xl duration-500 hover:bg-inherit;
+}
+
+.nav a.active {
+  @apply text-primary;
+}
