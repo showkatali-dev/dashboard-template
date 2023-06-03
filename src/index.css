@@ -20,9 +20,9 @@ h6 {
 }
 
 .nav a {
-  @apply btn btn-ghost text-xl duration-500 hover:bg-inherit;
+  @apply btn btn-sm btn-ghost text-xl duration-500 hover:bg-inherit border-0 border-l-2 border-transparent rounded-none;
 }
 
 .nav a.active {
-  @apply text-primary;
+  @apply text-primary border-primary;
 }
