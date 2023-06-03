@@ -14,7 +14,7 @@ const Layout = () => {
   return (
     <>
       <Navigation />
-      <div className="ml-16">
+      <div className="ml-12">
         {state === "loading" ? <Spinner /> : <Outlet />}
       </div>
     </>
