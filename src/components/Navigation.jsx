@@ -27,7 +27,7 @@ const Menu = () => {
 
 const Navigation = () => {
   return (
-    <div className="fixed left-0 top-0 bottom-0 bg-base-100 h-screen flex flex-col items-center p-2 justify-center gap-6 z-50 nav">
+    <div className="fixed left-0 top-0 bottom-0 bg-base-100 h-screen flex flex-col items-center p-2 justify-start gap-6 z-50 nav">
       <Menu />
     </div>
   );

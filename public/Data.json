@@ -4,7 +4,13 @@
       "title": "Total Sales",
       "value": "$58,203",
       "trend": "up",
-      "trendPercentage": "8%"
+      "trendPercentage": "58%"
+    },
+    {
+      "title": "Average Order Value",
+      "value": "$225",
+      "trend": "up",
+      "trendPercentage": "62%"
     },
     {
       "title": "New Customers",
